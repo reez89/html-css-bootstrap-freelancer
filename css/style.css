@@ -1,0 +1,21 @@
+
+.txt_center{
+  text-align: center;
+}
+
+.fl_right{
+  float: right;
+}
+
+
+.bg_lightblue{
+  background-color: lightblue;
+}
+
+.bg_lightgreen{
+  background-color: lightgreen;
+}
+
+.mg_custom{
+  margin: 20px 0;
+}
