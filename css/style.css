@@ -1,13 +1,8 @@
+/* UTILITY */
+
 .col-sm-12,
 .col-xs-12{
   text-align: center;
-}
-.navbar-inverse .navbar-nav>li>a{
-  color: white;
-}
-
-.navbar-brand > a{
-  color: white !important;
 }
 
 .line_star_top,
@@ -15,16 +10,15 @@
 .line_star_bottom{
   margin: 20px 0;
 }
+
 .txt_color{
   color: #2c3e50;
 }
-.jumbotron_ht{
-  height: 450px;
-  color: white;
-}
+
 footer{
   height: 400px;
 }
+
 .txt_center{
   text-align: center;
 }
@@ -51,6 +45,26 @@ footer{
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+.txt_align{
+  height: 100%;
+  align-items: center;
+}
+
+
+/* UTILITY */
+
+/* HEADER */
+.navbar-inverse .navbar-nav>li>a{
+  color: white;
+}
+.navbar-brand > a{
+  color: white !important;
+}
+.jumbotron_ht{
+  height: 450px;
+  color: white;
+}
 .icons i{
   margin: 0 10px;
 }
@@ -62,26 +76,21 @@ footer{
   height: 200px;
 }
 
-.border_round{
-  border: 1px solid white;
-  border-radius: 50px;
-  padding: 5px;
+.divder_line_top{
+  display: inline-block;
+  width: 20%;
+  height: 4px;
+  background-color: white;
+  border-radius: 5px;
 }
 
-.txt_align{
-  height: 100%;
-  align-items: center;
-}
-
-.hover_plus{
-  background-color: black;
-  height: 250px;
-}
+/*// HEADER */
 
 
-
+/* PORTFOLIO */
 .portfolio img{
-  height: 250px;
+  height: auto;
+  width: 100%;
 }
 
 .divider_center{
@@ -91,13 +100,7 @@ footer{
   height: 25px;
   width: 25px;
 }
-.divder_line_top{
-  display: inline-block;
-  width: 20%;
-  height: 4px;
-  background-color: white;
-  border-radius: 5px;
-}
+
 .divder_line{
   display: inline-block;
   width: 20%;
@@ -106,9 +109,13 @@ footer{
   border-radius: 5px;
 }
 
+/*//  PORTFOLIO */
+
+/* OVERLAY IMAGES */
 .items{
   position: relative;
-  height: 250px;
+  height: 100%;
+  width: auto;;
 }
 .overlay{
   position: absolute;
@@ -138,6 +145,10 @@ footer{
   transform: translate(-50%, -50%);
   height:40px;
 }
+
+/*// OVERLAY IMAGES */
+
+/* ABOUT */
 .about_color{
   color: white;
 }
@@ -183,7 +194,9 @@ footer{
 .button_holder{
   margin-top: 40px;
 }
+/*// ABOUT */
 
+/* CONTACT FORM */
 
 .form-control{
   border: 0;
@@ -191,4 +204,12 @@ footer{
   border-radius: 0;
   border-bottom: 1px solid #c8c8c8;
   padding: 0
+}
+
+/*// CONTACT FORM */
+
+.border_round{
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px;
 }
